@@ -1,0 +1,79 @@
+.img-logo{
+    margin-top: 5.2rem;
+    margin-bottom: 2.5rem;
+    width: 54px;
+}
+
+h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 1.8rem;
+}
+span{
+    font-weight: 700;
+}
+.top-section p{
+    margin-top: .5rem;
+    font-size: .8rem;
+    margin-left: 1.6rem;
+}
+
+input[type=text]{
+    width: 86%;
+    font-size: .8rem;
+    border-radius: 50px;
+    margin-left: 1.8rem;
+    margin-top: .8rem;
+    padding: .6rem;
+}
+
+input[type=text]::placeholder{
+    padding-left: 1.2rem;
+}
+
+.btn{
+    width: 86%;
+    margin-left: 1.7rem;
+    margin-top: .6rem;
+    border-radius: 50px;
+    font-size: .8rem;
+    padding-top: .5rem;
+    padding-bottom: .6rem;
+}
+
+.img-dashboard{
+    width: 100%;
+    margin-top: 4.1rem;
+    margin-left: 1rem;
+    margin-bottom: 7.5rem;
+}
+
+i:nth-child(1){
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: .4rem .6rem;
+    margin-right: .4rem;
+    margin-left: 2.2rem;
+    
+}
+
+i:nth-child(2){
+    padding: .4rem;
+    border: 1px solid #000;
+    border-radius: 50px;
+    margin-right: .5rem;
+}
+i:nth-child(3){
+    padding: .4rem;
+    border: 1px solid #000;
+    border-radius: 50px;
+    margin-left: .3rem;
+    margin-right: 1rem;
+}
+
+.footer p{
+    margin-top: 1.6rem;
+    font-size: .62rem;
+    margin-left: 1.5rem;
+    font-weight: 500;
+}

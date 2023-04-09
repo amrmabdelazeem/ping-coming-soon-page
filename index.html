@@ -16,6 +16,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
 
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
   <!--CSS-->
   <link rel="stylesheet" href="/css/styles.css">
 
@@ -38,11 +41,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <input type="text" placeholder="Your email address...">
+      <div class="col-md-12 col-lg-6 col-xl-6 error-div">
+        <input type="text" class="emailInput" placeholder="Your email address...">
+        <p class="error">Please provide a valid email address</p>
       </div>
-      <div class="col-md-12">
-        <button class="btn btn-warning" type="submit">Notify Me</button>
+      <div class="col-md-12 col-lg-6 col-xl-6">
+        <button class="btn btn-primary" type="submit">Notify Me</button>
       </div>
     </div>
     <div class="row">
@@ -64,5 +68,6 @@
     </div>
     </div>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
